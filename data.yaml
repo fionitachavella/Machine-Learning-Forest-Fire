@@ -1,0 +1,17 @@
+
+path: ../yolov5/forestfire
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: fire
+  1: nofire
+
+
+roboflow:
+  workspace: studiindependen
+  project: forestfiredetection-glois
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/studiindependen/forestfiredetection-glois/dataset/1
